@@ -66,7 +66,24 @@ export default function Home() {
 
       <div>
         <div class="bg-[url('/img/available_img.jpeg')] bg-cover bg-center bg-no-repeat bg-center bg-local md:bg-fixed min-h-screen text-zinc-50 relative">
-          
+          <div class="flex justify-between items-center h-screen px-16 text-center">
+            <div class="bg-[#2f4137] bg-opacity-50 py-5 px-10">
+            <h6 class="text-[#EEE8AA] my-3 text-lg font-normal font-serif leading-5">Customer Support</h6>
+            <p class="text-[#EEE8AA] my-3 font-light leading-6 font-mono">24 Hours Support</p>
+            </div>
+            <div class="bg-[#2f4137] bg-opacity-50 py-5 px-10">
+            <h6 class="text-[#EEE8AA] my-3 text-lg font-normal font-serif leading-5">Family Size Room</h6>
+            <p class="text-[#EEE8AA] my-3 font-light leading-6 font-mono">Available Room</p>
+            </div>
+            <div class="bg-[#2f4137] bg-opacity-50 py-5 px-10">
+            <h6 class="text-[#EEE8AA] my-3 text-lg font-normal font-serif leading-5">Conference Room</h6>
+            <p class="text-[#EEE8AA] my-3 font-light leading-6 font-mono">Conference Room Available</p>
+            </div>
+            <div class="bg-[#2f4137] bg-opacity-50 py-5 px-10">
+            <h6 class="text-[#EEE8AA] my-3 text-lg font-normal font-serif leading-5">Free Wifi Corner</h6>
+            <p class="text-[#EEE8AA] my-3 font-light leading-6 font-mono">Free Wifi 24/7</p>
+            </div>
+          </div>
         </div>
       </div>
       </>

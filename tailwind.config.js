@@ -12,7 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         'banner-home': "url('/img/banner-home.jpg')",
-      }
+      },
     },
   },
   plugins: [],

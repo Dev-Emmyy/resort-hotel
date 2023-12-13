@@ -86,6 +86,54 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div class="bg-[#EEE8AA] py-16 px-10 flex flex-col justify-between items-center">
+        <div class="flex justify-between mb-14">
+          <div>
+            <h6 class="text-[#d39364] font-serif font-normal tracking-widest leading-5 mb-4">Why Choose Us</h6>
+            <div class="border-b-2 border-[#d39364] w-48"></div>
+          </div>
+          <div class="w-3/4 flex flex-col items-start text-left">
+            <h2 class="text-[#2f4137] text-5xl font-serif font-normal tracking-widest mb-6">Our services</h2>
+            <p class="text-[#2f4137] font-light">We offer a range of services, including accommodation, dining, recreational facilities, event spaces, entertainment, concierge services, Wi-Fi, business services, transportation assistance, housekeeping, security, special packages, and responsive customer support. Emphasizing unique features and tailoring services to guest preferences is key.</p>
+          </div>
+        </div>
+        <div class="flex w-full">
+          <div class="w-4/12">
+            <Image
+              src="/img/service_img.jpg"
+              alt="rating"
+              width={350}
+              height={450} 
+              />
+              <h4 class="mt-20">Spa &amp; Wellness</h4>
+              <p>Our Spa & Wellness services offers guests a holistic experience focused on relaxation and rejuvenation. This includes comfortable accommodation, nutritious dining options, recreational facilities, and a comprehensive range of spa treatments, fitness programs, and holistic wellness practices.</p>
+          </div>
+          <div class="w-4/12">
+            <Image
+              src="/img/service_img_2.jpg"
+              alt="rating"
+              width={350}
+              height={450} 
+              />
+              <h4 class="mt-20">Events &amp; Meetings</h4>
+              <p>Our Events & Meetings provides versatile spaces and services to accommodate a range of gatherings. This includes conferences, meetings, weddings, and other events. </p>
+          </div>
+          <div class="w-4/12">
+            <Image
+              src="/img/service_img_3.jpg"
+              alt="rating"
+              width={350}
+              height={450} 
+              />
+              <h4 class="mt-20">Restaurant &amp; Bar</h4>
+              <p>Our Restaurant & Bar offers a complete dining and social experience for guests. This includes on-site dining options with a diverse menu, ranging from local specialties to international cuisine. </p>
+          </div>
+        </div>
+        <div>
+          <button>See More</button>
+        </div>
+      </div>
       </>
   )
 }

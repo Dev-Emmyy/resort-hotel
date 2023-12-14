@@ -106,8 +106,8 @@ export default function Home() {
               width={350}
               height={450} 
               />
-              <h4 class="mt-20">Spa &amp; Wellness</h4>
-              <p>Our Spa & Wellness services offers guests a holistic experience focused on relaxation and rejuvenation. This includes comfortable accommodation, nutritious dining options, recreational facilities, and a comprehensive range of spa treatments, fitness programs, and holistic wellness practices.</p>
+              <h4 class="my-5 text-[#2f4137] text-4xl font-light">Spa &amp; Wellness</h4>
+              <p class="w-80 text-[#5a76660] font-mono">Our Spa & Wellness services offers guests a holistic experience focused on relaxation and rejuvenation. This includes comfortable accommodation, nutritious dining options, recreational facilities, and a comprehensive range of spa treatments, fitness programs, and holistic wellness practices.</p>
           </div>
           <div class="w-4/12">
             <Image
@@ -116,8 +116,8 @@ export default function Home() {
               width={350}
               height={450} 
               />
-              <h4 class="mt-20">Events &amp; Meetings</h4>
-              <p>Our Events & Meetings provides versatile spaces and services to accommodate a range of gatherings. This includes conferences, meetings, weddings, and other events. </p>
+              <h4 class="my-5 text-[#2f4137] text-4xl font-light">Events &amp; Meetings</h4>
+              <p class="w-80 text-[#5a76660] font-mono">Our Events & Meetings provides versatile spaces and services to accommodate a range of gatherings. This includes conferences, meetings, weddings, and other events. </p>
           </div>
           <div class="w-4/12">
             <Image
@@ -126,12 +126,12 @@ export default function Home() {
               width={350}
               height={450} 
               />
-              <h4 class="mt-20">Restaurant &amp; Bar</h4>
-              <p>Our Restaurant & Bar offers a complete dining and social experience for guests. This includes on-site dining options with a diverse menu, ranging from local specialties to international cuisine. </p>
+              <h4 class="my-5 text-[#2f4137] text-4xl font-light">Restaurant &amp; Bar</h4>
+              <p class="w-80 text-[#5a76660] font-mono">Our Restaurant & Bar offers a complete dining and social experience for guests. This includes on-site dining options with a diverse menu, ranging from local specialties to international cuisine. </p>
           </div>
         </div>
-        <div>
-          <button>See More</button>
+        <div class="my-10">
+          <button class="bg-[#2f4137] text-[#EEE8AA] px-10 py-4 font-mono font-bold">See More</button>
         </div>
       </div>
       </>

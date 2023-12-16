@@ -10,8 +10,8 @@ export default function Home() {
             src="/img/rating.png"
             alt="rating"
             width={100}
-            height={100} />
-
+            height={100} 
+            />
           <h6 class="font-serif text-base font-normal my-3">Welcome to</h6>
           <h1 class="font-serif text-7xl font-normal my-3">Resort & Hotel</h1>
           <p class="font-sans text-base text-center font-normal my-3">Experience the epitome of luxury at our five-star deluxe hotel in Europe. Immerse yourself in unparalleled sophistication, where meticulous design and impeccable service redefine opulence.</p>
@@ -132,6 +132,42 @@ export default function Home() {
         </div>
         <div class="my-10">
           <button class="bg-[#2f4137] text-[#EEE8AA] px-10 py-4 font-mono font-bold">See More</button>
+        </div>
+      </div>
+
+      <div class="bg-[#f7eee3] py-16 px-10">
+        <div class="flex w-full">
+          <div class="w-1/4">
+          <h6 class="text-[#d39364] font-serif font-normal tracking-widest leading-5 mb-4">Reviews</h6>
+          <div class="border-b-2 border-[#d39364] w-48"></div>
+          </div>
+          <div class="w-3/4">
+          <div>
+            <h1 class="text-[#2f4137] text-5xl font-serif font-normal tracking-widest mb-6">Testimonials</h1>
+            <Image
+            src="/img/rating.png"
+            alt="rating"
+            width={100}
+            height={100} 
+            />
+            <p class="text-[#2f4137] font-light my-5">“We are proud to offer top range of comprehensive employment services such payroll and benefits administration management assistance with global ranch business range global business range employment.”</p>
+          </div>
+          <div class="flex flex-row justify-items-center items-start ">
+            <div class="w-1/6 rounded-full">
+            <Image
+            src="/img/rating_2.jpg"
+            alt="rating"
+            width={100}
+            height={100} 
+            class="rounded-full"
+            />
+            </div>
+            <div>
+              <h2 class="text-[#2f4137] text-2xl font-serif font-normal mb-3">Blanche Fields</h2>
+              <h6 class="text-[#d39364]">Senior Marketer</h6>
+            </div>
+          </div>
+          </div>
         </div>
       </div>
       </>

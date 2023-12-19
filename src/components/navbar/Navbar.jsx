@@ -40,6 +40,7 @@ const Navbar = () => {
               alt="Logo"
               width={150}
               height={10}
+              class="w-36 h-24"
               priority
             />
         </div>

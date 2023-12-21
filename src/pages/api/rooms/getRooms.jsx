@@ -1,5 +1,5 @@
 export default async (req, res) => {
-    console.log('Request to /api/rooms/routes received');
+    console.log('Damn is dis real?');
     res.status(200).json({ message: 'Hello from the API!' });
   };
   

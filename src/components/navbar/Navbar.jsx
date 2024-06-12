@@ -28,7 +28,7 @@ const links = [
        title: "Contact",
        url: "/contact"
    },
-]
+];
 
 
 const Navbar = () => {
@@ -53,6 +53,6 @@ const Navbar = () => {
         </div>
        </div>
     )
-}
+};
 
 export default Navbar;
